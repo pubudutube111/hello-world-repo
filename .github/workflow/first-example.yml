@@ -1,1 +1,9 @@
 
+name:   
+on: push
+jobs:
+  first_job:
+    runs-on:  ubuntu-latest
+    steps: 
+    - name: Welcome message
+      run:  echo "My first action"
