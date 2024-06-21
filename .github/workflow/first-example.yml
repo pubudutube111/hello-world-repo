@@ -1,5 +1,5 @@
 
-name:   
+name: hello wf
 on: push
 jobs:
   first_job:
