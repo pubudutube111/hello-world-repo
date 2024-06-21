@@ -7,3 +7,9 @@ jobs:
     steps: 
     - name: Welcome message
       run:  echo "My first action"
+  
+  second_job:
+    runs-on:  ubuntu-latest
+    steps:
+    - name: Second message
+      run:  echo "This is the second step"
